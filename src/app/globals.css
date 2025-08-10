@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'GOTHAM';
+  src: url('/font/gotham.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+    font-family: "GOTHAM", sans-serif;
+}
+
+.banner{
+  background-image: url('/assets/bannerPrincipal.jpg');
+  background-size:cover;      
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.banerFormulario{
+  background-image: url('/assets/banerFormulario.jpg');
+  background-size:cover;      
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.fecha-pico {
+  background-color: red !important;
+  color: white !important;
+  border-radius: 50%;
+}
