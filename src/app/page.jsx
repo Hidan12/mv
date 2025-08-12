@@ -23,9 +23,9 @@ export default function Home() {
         <div className="w-[60%] flex flex-col items-start">
           <span className="pl-2 xl:pl-4 mb-1 pr-4 xl:pr-8 bg-[#00271C] text-[12px] xl:text-[2.8rem] font-bold text-white">Movilízate con </span>
           <span className="pl-2 xl:pl-4 mb-1 pr-5 xl:pr-13 bg-[#00271C] text-[12px] xl:text-[2.8rem] font-bold text-white">el permiso de</span>
-          <span className="pl-2 xl:pl-4 mb-1 pr-12 xl:pr-14 text-[#00271C] bg-[#88F456] text-[12px] xl:text-[2.8rem] font-bold">PICO Y PLACA </span>
-          <span className="pl-2 xl:pl-4 mb-1 pr-16.5 xl:pr-32 text-[#00271C] bg-[#88F456] text-[12px] xl:text-[2.8rem] font-bold">SOLIDARIO </span>
-          <button className="w-[30%] px-0.5 text-center xl:pl-4 xl:mt-4 xl:pr-14 text-[#00271C] bg-[#88F456] text-[11px] xl:text-[1.8rem] font-bold rounded-full border-2">
+          <span className="pl-2 xl:pl-4 mb-1 pr-12 xl:w-[50%] text-[#00271C] bg-[#88F456] text-[12px] xl:text-[2.8rem] font-bold">PICO Y PLACA </span>
+          <span className="pl-2 xl:pl-4 mb-1 pr-16.5 xl:w-[50%] text-[#00271C] bg-[#88F456] text-[12px] xl:text-[2.8rem] font-bold">SOLIDARIO </span>
+          <button onClick={() => document.getElementById('formulario').scrollIntoView({behavior: 'smooth'})} className="w-[30%] xl:w-[35%] px-0.5 text-center xl:pl-4 xl:mt-4 xl:pr-10 text-[#00271C] bg-[#88F456] text-[11px] xl:text-[1.8rem] font-bold rounded-full border-2">
             Inicia tu solicitud
           </button>
         </div>
