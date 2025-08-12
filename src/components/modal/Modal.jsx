@@ -1058,7 +1058,7 @@ export default function Modal({ tipoDocumento, numeroDocumento, close}) {
                             </svg>
                         </button>
                     </div>
-                    <div className="w-full flex justify-between items-center">
+                    <div className="w-full flex px-5 justify-between items-center">
                         <div
                             className={`px-2 text-white rounded-full ${estado == 1 ? "bg-green-950" : "bg-gray-500"
                                 }`}

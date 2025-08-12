@@ -102,11 +102,11 @@ const Mobil = ()=>{
               <span className="text-[9px] text-[#00271c] border-b-1 border-b-[#88F456] ml-2">secretariamovilidad</span>
             </div>
           </div>
-          <div className="w-full grid grid-cols-3 mt-5">
-              <span className="text-[11px] text-[#00271c] border-b-1 border-b-[#88F456]">Acerca de nosotros</span>
-              <span className="text-[11px] text-[#00271c] border-b-1 border-b-[#88F456]">Mapa del sitio</span>
-              <span className="text-[11px] text-[#00271c] border-b-1 border-b-[#88F456]">Aplicativo de la SDM</span>
-              <span className="text-[11px] text-[#00271c] border-b-1 border-b-[#88F456]">Denuncias por actos de corrupción</span>
+          <div className="w-full flex flex-col justify-center mt-5">
+              <span className="text-[11px] text-[#00271c] text-center border-b-1 border-b-[#88F456]">Acerca de nosotros</span>
+              <span className="text-[11px] text-[#00271c] text-center border-b-1 border-b-[#88F456]">Mapa del sitio</span>
+              <span className="text-[11px] text-[#00271c] text-center border-b-1 border-b-[#88F456]">Aplicativo de la SDM</span>
+              <span className="text-[11px] text-[#00271c] text-center border-b-1 border-b-[#88F456]">Denuncias por actos de corrupción</span>
           </div>
         </div>
       </div>
